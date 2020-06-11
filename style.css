@@ -1,0 +1,140 @@
+.grid-container {
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vh;
+    grid-template-rows: 3fr 3fr 3fr 1fr 3fr ;
+}
+
+.firstgrid {
+    grid-row: 1/2;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    background-color: #C5D3EE;
+}
+
+.secondgrid {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: white;
+}
+
+.name {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.job {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+
+.shrek {
+    display: inline-block;
+    position: relative;
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 17%;
+}
+
+.art-1-1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+}
+
+.art-1-2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.art-1-3 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.spacing {
+    display: block;
+    font: size 20ft;;
+    line-height: 250%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.blue-title {
+    background-color:#C5D3EE ;
+    margin: 20pt;
+    text-align: center;
+}
+
+.distance {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: -5%;
+}
+
+.distance-skills {
+    text-align: center;
+    margin-bottom: -10%;
+    margin-top: -1%;
+}
+
+.thirdgrid {
+    grid-template-columns: 3fr 2fr 3fr;
+}
+
+.lower-title {
+    grid-column: 2/3;
+    background-color:  #C5D3EE ;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.first-line {
+    width: 100%;
+    height: 4px;
+    margin: 0%;
+    background-color:#C5D3EE ;
+    border: none;
+}
+
+.second-line {
+    width: 100%;
+    height: 5%;
+    margin-top: 11%;
+    background-color: #C5D3EE;
+    border: none;
+}
+
+
+
+.experience-margin {
+    margin-top: -4%;
+    margin-bottom: -4%;
+}
+
+.fourthgrid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.list-pos {
+    list-style-position: outside;
+    padding-left: 5%;
+    padding-right: 7%;
+}
